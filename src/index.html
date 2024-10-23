@@ -1,0 +1,219 @@
+<html>
+ <head>
+    <title>
+    wongnaiTU
+    </title>
+    <link href="./output.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-bg1 font-body text-blue1" style="background-image: linear-gradient(to bottom, #F687B3 0vh, #F9ABCA 29vh, #F5DDE6 61vh, #F3F3F3 100vh); min-height: 100vh; margin:0;">
+  <header class="flex justify-between items-center bg-white bg-opacity-60 px-3">
+   <div class="flex items-center">
+    <img alt="Logo" class="h-10" height="50" src="https://storage.googleapis.com/a1aa/image/LAfQWYerProGsUWpj1wea1iXvVICqYvOlXcP8JSv1MPGYDTnA.jpg" width="50"/>
+    <h1 class="text-2xl font-bold ml-2">
+     wongnaiTU
+    </h1>
+   </div>
+   <div class="flex space-x-4">
+    <i class="fas fa-utensils text-xl hover:scale-150 hover:cursor-pointer transition ease-in-out duration-500">
+    </i>
+    <i class="fas fa-coffee text-xl hover:scale-150 hover:cursor-pointer transition ease-in-out duration-500">
+    </i>
+    <i class="fas fa-store text-xl hover:scale-150 hover:cursor-pointer transition ease-in-out duration-500">
+    </i>
+   </div>
+  </header>
+  <section class="p-4">
+   <div class="slides relative" width="1200" height="400">
+         <!--<img alt="Featured food" class="w-full h-64 object-cover hidden" src="https://storage.googleapis.com/a1aa/image/1wLvliha7L5LEVUYDaMIMpAqOMxVChfpDAcEpTMfQelJYDTnA.jpg" alt="Image #1"/>-->
+        <img src="img/banner/bbq_banner.jpg" class="w-full h-64 object-cover hidden cursor-pointer hover:opacity-90" alt="Image #1">
+        <img src="img/banner/hotdog_banner.jpg" class="w-full h-64 object-cover hidden cursor-pointer hover:opacity-90" alt="Image #2">
+        <img src="img/banner/sushi_banner.jpg" class="w-full h-64 object-cover hidden cursor-pointer hover:opacity-90" alt="Image #3">
+        <button class="absolute top-1/2 left-0 mx-10 p-4 transform -translate-y-1/2 text-[2rem] bg-white rounded-full bg-opacity-50 text-black cursor-pointer hover:bg-opacity-100 transition ease-linear duration-200 active:bg-gray-50"  onclick="prevSlide()">&#10094;</button>
+        <button class="absolute top-1/2 right-0 mx-10 p-4 transform -translate-y-1/2 text-[2rem] bg-white rounded-full bg-opacity-50 text-black cursor-pointer hover:bg-opacity-100 transition ease-linear duration-200 active:bg-gray-50" onclick="nextSlide()">&#10095;</button>
+    <div class="absolute bottom-4 left-4 text-white text-2xl font-bold">
+     วันนี้ คุณมีข้าวกลางวันหรือยัง
+    </div>
+   </div>
+  </section>
+  <section class="p-4">
+   <h2 class="text-xl font-bold mb-4">
+    ร้านอาหารแนะนำ
+   </h2>
+   <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 ">
+
+    <div class="card">
+     <img alt="เฮียโฮ วัวลืมปิด" class="w-full h-40 object-cover rounded" height="200" src="https://storage.googleapis.com/a1aa/image/U0dmdTsKJ9YqElyGD70KkxGvBalRWvWEOh3jNqe7sNG91w0JA.jpg" width="300"/>
+     <h3 class="mt-2 font-bold">
+      เฮียโฮ วัวลืมปิด
+     </h3>
+     <p>
+      📍 ที่อยู่: โดมขาว
+     </p>
+     <p>
+      ✨ เมนูแนะนำ: ข้าวมันไก่ย่าง
+     </p>
+    </div>
+    <div class="card">
+     <img alt="อินทนิล" class="w-full h-40 object-cover rounded" height="200" src="https://storage.googleapis.com/a1aa/image/ZHINxB4rJK7FIFeBREiYUjnENUGuf0mW4QXJL4bnLyCLshpTA.jpg" width="300"/>
+     <h3 class="mt-2 font-bold">
+      อินทนิล
+     </h3>
+     <p>
+      📍 ที่อยู่: โดมแดง
+     </p>
+     <p>
+      ✨ เมนูแนะนำ: ข้าวมันไก่ย่าง
+     </p>
+    </div>
+    <div class="card">
+     <img alt="ข้าวหมูแดงอัมรินทร์" class="w-full h-40 object-cover rounded" height="200" src="https://storage.googleapis.com/a1aa/image/ePAfmKPGtfPJwpBt2wSJ9WpXUxSnN6qzRalLDpyFAG39XDTnA.jpg" width="300"/>
+     <h3 class="mt-2 font-bold">
+      ข้าวหมูแดงอัมรินทร์
+     </h3>
+     <p>
+      📍 ที่อยู่: โดมขาว
+     </p>
+     <p>
+      ✨ เมนูแนะนำ: ข้าวมันไก่ย่าง
+     </p>
+    </div>
+    <div class="card">
+     <img alt="bankara ramen" class="w-full h-40 object-cover rounded" height="200" src="https://storage.googleapis.com/a1aa/image/HeGCxect3wo02U0R1soUgu8HTfaB9HksuCY4hlItRCLBYDTnA.jpg" width="300"/>
+     <h3 class="mt-2 font-bold">
+      bankara ramen
+     </h3>
+     <p>
+      📍 ที่อยู่: โดมแดง
+     </p>
+     <p>
+      ✨ เมนูแนะนำ: ข้าวมันไก่ย่าง
+     </p>
+    </div>
+    <div class="card">
+     <img alt="ข้าวขาหมูตะไล" class="w-full h-40 object-cover rounded" height="200" src="https://storage.googleapis.com/a1aa/image/evNXXXu22KyPWSdlwroLBdkwOfHPNgfPvwvrCHttk6yPYDTnA.jpg" width="300"/>
+     <h3 class="mt-2 font-bold">
+      ข้าวขาหมูตะไล
+     </h3>
+     <p>
+      📍 ที่อยู่: โดมขาว
+     </p>
+     <p>
+      ✨ เมนูแนะนำ: ข้าวมันไก่ย่าง
+     </p>
+    </div>
+    <div class="card">
+     <img alt="ข้าวหมูกรอบนายอู๊ด" class="w-full h-40 object-cover rounded" height="200" src="https://storage.googleapis.com/a1aa/image/0BbyEeIPlX38SCv6aKRvLfczNyHNSweNXQaTnrrQzGA2XDTnA.jpg" width="300"/>
+     <h3 class="mt-2 font-bold">
+      ข้าวหมูกรอบนายอู๊ด
+     </h3>
+     <p>
+      📍 ที่อยู่: โดมแดง
+     </p>
+     <p>
+      ✨ เมนูแนะนำ: ข้าวมันไก่ย่าง
+     </p>
+    </div>
+    <div class="card">
+     <img alt="ก๋วยจั๊บมิสเตอร์โอ" class="w-full h-40 object-cover rounded" height="200" src="https://storage.googleapis.com/a1aa/image/gqWzB1kJZew4eklUy72jsnk13Sqda0ertNUUp3KLf6ZGwGmOB.jpg" width="300"/>
+     <h3 class="mt-2 font-bold">
+      ก๋วยจั๊บมิสเตอร์โอ
+     </h3>
+     <p>
+      📍 ที่อยู่: โดมขาว
+     </p>
+     <p>
+      ✨ เมนูแนะนำ: ข้าวมันไก่ย่าง
+     </p>
+    </div>
+    <div class="card">
+     <img alt="ดวง ติ่มซำ" class="w-full h-40 object-cover rounded" height="200" src="https://storage.googleapis.com/a1aa/image/V2ZMYH3gq07xDRAgXj1sa8bwLrs4ZCceYQ6W4EaNopeJshpTA.jpg" width="300"/>
+     <h3 class="mt-2 font-bold">
+      ดวง ติ่มซำ
+     </h3>
+     <p>
+      📍 ที่อยู่: โดมแดง
+     </p>
+     <p>
+      ✨ เมนูแนะนำ: ข้าวมันไก่ย่าง
+     </p>
+    </div>
+   </div>
+  </section>
+  <section class="bg-white p-4 m-10 rounded-md shadow-sm hover:scale-105 hover:font-extrabold hover:shadow-lg transition ease-in-out duration-700">
+   <h2 class="text-xl font-bold mb-4">
+    คาเฟ่
+   </h2>
+   <div class="bg-white p-4 rounded shadow">
+    <img alt="หอมละมุน Brew Bar" class="w-full h-40 object-cover rounded" height="400" src="https://storage.googleapis.com/a1aa/image/fhk8nEUmn4yFYalFQWybhfDXjUAwGWfbyeHXWZNJ3Ff1gNMdC.jpg" width="1200"/>
+    <h3 class="mt-2 font-bold">
+     หอมละมุน Brew Bar
+    </h3>
+    <p>
+     📍 ที่อยู่: ตึก80ปี
+    </p>
+    <p>
+     ✨ เมนูแนะนำ: ชาเขียวมัทฉะ
+    </p>
+   </div>
+  </section>
+  <section class="bg-white p-4 m-10 rounded-md shadow-sm hover:scale-105 hover:font-extrabold hover:shadow-lg transition ease-in-out duration-700">
+   <h2 class="text-xl font-bold mb-4">
+    สหกรณ์
+   </h2>
+   <div class="bg-white p-4 rounded shadow">
+    <img alt="สหกรณ์ โรงเรียนเตรียมอุดมศึกษา" class="w-full h-40 object-cover rounded" height="400" src="https://storage.googleapis.com/a1aa/image/W2CVyio3Lkp1H5IrO8asNDK9mnMVA67cklE4OrRFUtcf1w0JA.jpg" width="1200"/>
+    <h3 class="mt-2 font-bold">
+     สหกรณ์ โรงเรียนเตรียมอุดมศึกษา
+    </h3>
+    <p>
+     📍 ที่อยู่: ลาน70
+    </p>
+    <p>
+     ✨ ขายอุปกรณ์การเรียน
+    </p>
+   </div>
+  </section>
+  <footer class="bg-gray-200 p-4">
+   <h2 class="text-xl font-bold mb-4">
+    Contact Us 📬
+   </h2>
+   <p>
+    เราเป็นรับฟังทุกความคิดเห็นและคำแนะนำจากทุกคน! สามารถติดต่อเราได้ตามช่องทางด้านล่างนี้:
+   </p>
+   <p>
+    📧 อีเมล: example@email.com
+   </p>
+   <p>
+    📞 โทรศัพท์: +66 123-456-789
+   </p>
+   <p>
+    หรือกรอกแบบฟอร์มด้านล่าง แล้วเราจะติดต่อกลับไปเร็วที่สุด:
+   </p>
+   <form class="bg-white p-4 rounded shadow">
+    <label class="block mb-2">
+     ชื่อ:
+    </label>
+    <input class="w-full p-2 mb-4 border rounded" type="text"/>
+    <label class="block mb-2">
+     อีเมล:
+    </label>
+    <input class="w-full p-2 mb-4 border rounded" type="email"/>
+    <label class="block mb-2">
+     ข้อความ:
+    </label>
+    <textarea class="w-full p-2 mb-4 border rounded"></textarea>
+    <button class="bg-blue-500 text-white p-2 rounded" type="submit">
+     ส่งข้อความ
+    </button>
+   </form>
+   <p>
+    📍 ที่อยู่สำนักงาน:
+   </p>
+   <p>
+    123 ถนนสยามสแควร์, แขวงปทุมวัน, เขตปทุมวัน, กรุงเทพฯ 12345
+   </p>
+  </footer> 
+  <script src="front_end.js"></script>
+ </body>
+</html>
